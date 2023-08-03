@@ -1,22 +1,22 @@
 <?php
 
 /**
- * This file is part of the Codeinfo\LaravelKuaishou.
+ * This file is part of the Themismin\LaravelKuaishou.
  *
- * (c) codeinfo <nanye@codeinfo.cn>
+ * (c) themismin <nanye@themismin.cn>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Codeinfo\LaravelKuaishou;
+namespace Themismin\LaravelKuaishou;
 
 use Illuminate\Support\Str;
 
 /**
  * Class Factory.
  *
- * @method static Codeinfo\LaravelKuaishou\Platform\Application            platform(array $config)
+ * @method static Themismin\LaravelKuaishou\Platform\Application            platform(array $config)
  */
 class Factory
 {
@@ -24,12 +24,12 @@ class Factory
      * @param string $name
      * @param array  $config
      *
-     * @return Codeinfo\LaravelKuaishou\Kernel\ServiceContainer
+     * @return Themismin\LaravelKuaishou\Kernel\ServiceContainer
      */
     public static function make($name, array $config)
     {
         $namespace = Str::studly($name);
-        $application = "\\Codeinfo\\LaravelKuaishou\\{$namespace}\\Application";
+        $application = "\\Themismin\\LaravelKuaishou\\{$namespace}\\Application";
 
         return new $application($config);
     }

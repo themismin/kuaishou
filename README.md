@@ -9,7 +9,7 @@
 
 ## 初始化开放平台
 
-    use Codeinfo\LaravelKuaishou\Factory;
+    use Themismin\LaravelKuaishou\Factory;
     $app = Factory::platform(config('kuaishou.platform'))
 
 

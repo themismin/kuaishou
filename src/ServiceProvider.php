@@ -1,6 +1,6 @@
 <?php
 
-namespace Codeinfo\LaravelKuaishou;
+namespace Themismin\LaravelKuaishou;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 

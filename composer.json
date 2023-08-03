@@ -1,11 +1,11 @@
 {
-    "name": "codeinfo/laravel-kuaishou",
+    "name": "themismin/laravel-kuaishou",
     "description": "kuaishou api",
     "license": "MIT",
     "authors": [
       {
         "name": "nanye",
-        "email": "nanye@codeinfo.cn"
+        "email": "nanye@themismin.cn"
       }
     ],
     "require": {
@@ -18,13 +18,13 @@
     },
     "autoload": {
       "psr-4": {
-        "Codeinfo\\LaravelKuaishou\\": "src/"
+        "Themismin\\LaravelKuaishou\\": "src/"
       }
     },
     "extra": {
       "laravel": {
         "providers": [
-            "Codeinfo\\LaravelKuaishou\\ServiceProvider"
+            "Themismin\\LaravelKuaishou\\ServiceProvider"
         ]
       }
     }

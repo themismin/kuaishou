@@ -1,31 +1,31 @@
 <?php
 
 /**
- * This file is part of the Codeinfo\LaravelKuaishou.
+ * This file is part of the Themismin\LaravelKuaishou.
  *
- * (c) codeinfo <nanye@codeinfo.cn>
+ * (c) themismin <nanye@themismin.cn>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Codeinfo\LaravelKuaishou\Kernel;
+namespace Themismin\LaravelKuaishou\Kernel;
 
-use Codeinfo\LaravelKuaishou\Kernel\Http\Request;
+use Themismin\LaravelKuaishou\Kernel\Http\Request;
 
 class Client extends Request
 {
     /**
      * ServiceContainer.
      *
-     * @var \Codeinfo\LaravelKuaishou\Kernel\ServiceContainer
+     * @var \Themismin\LaravelKuaishou\Kernel\ServiceContainer
      */
     protected $app;
 
     /**
      * Client constructor.
      *
-     * @param \Codeinfo\LaravelKuaishou\Kernel\ServiceContainer $app
+     * @param \Themismin\LaravelKuaishou\Kernel\ServiceContainer $app
      */
     public function __construct(ServiceContainer $app)
     {

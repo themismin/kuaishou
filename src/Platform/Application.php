@@ -1,17 +1,17 @@
 <?php
 
 /**
- * This file is part of the Codeinfo\LaravelKuaishou.
+ * This file is part of the Themismin\LaravelKuaishou.
  *
- * (c) codeinfo <nanye@codeinfo.cn>
+ * (c) themismin <nanye@themismin.cn>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Codeinfo\LaravelKuaishou\Platform;
+namespace Themismin\LaravelKuaishou\Platform;
 
-use Codeinfo\LaravelKuaishou\Kernel\ServiceContainer;
+use Themismin\LaravelKuaishou\Kernel\ServiceContainer;
 
 class Application extends ServiceContainer
 {
